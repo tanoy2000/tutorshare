@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/coursebtn"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/back"
+            />
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Course Detail"
+            android:textSize="30sp"
+            android:layout_marginTop="-40dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:outlineAmbientShadowColor="#b579a6"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="3dp"
+            android:layout_marginTop="20dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageButton
+                    android:id="@+id/img_tutor"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile"
+                    />
+                <TextView
+                    android:id="@+id/name_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_tutor"
+                    android:text="Course name: science"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/name_tutor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name_course"
+                    android:text="Tutor name: Bnnn"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name_tutor"
+                    android:text="Tel: 099999999"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tel"
+                    android:text="Email: Bnnnn@gmai.com"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/email"
+                    android:text="Price: 1,500 B"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/course_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/price"
+                    android:text="Detail: rtfhkdoxfdg;df,gfxldsf,dlmdflgmd,.mvlpdfg;ldf;glh"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/deletebtn"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/course_detail"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/red"
+                    android:text="ลบ"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    />
+                <Button
+                    android:id="@+id/editbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/course_detail"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="@color/yellow"
+                    android:text="แก้ไข"
+                    android:textSize="15sp"
+                    android:layout_toRightOf="@+id/deletebtn"
+                    android:layout_marginBottom="10dp"
+                    />
+                <Button
+                    android:id="@+id/showbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/course_detail"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:text="คนจอง"
+                    android:textSize="12sp"
+                    android:layout_toRightOf="@+id/editbtn"
+                    android:layout_marginBottom="10dp"
+                    />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_tutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_tutor" />
+
+</RelativeLayout>
