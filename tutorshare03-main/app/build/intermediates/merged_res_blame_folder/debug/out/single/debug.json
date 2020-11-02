@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_show_student.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\show_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_std_course_detail.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\std_course_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tutor_course.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\fragment_tutor_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_tutor_etd_profile.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\tutor_etd_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_std_profile.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\std_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_tutor_add.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\tutor_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_tutor_etd_course.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\tutor_etd_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_std_search.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\std_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_tutor_course_detail.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\tutor_course_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_tutor.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\menu\\bottom_nav_tutor.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\add.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_tutor_profile.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\tutor_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_std_home.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\std_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_register_stu.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\register_stu.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_tutor_course.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\tutor_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_register_tutor.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\register_tutor.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_book.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\book.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_std_etd_profile.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\std_etd_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tutor_course_detail.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\fragment_tutor_course_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_login_stu.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\login_stu.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile.jpg.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\profile.jpg"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_std_course.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\std_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loupe.png.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\loupe.png"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_login_tutor.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\login_tutor.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_index.xml.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\layout\\index.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_std.jpg.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\std.jpg"
+    },
+    {
+        "merged": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tutor.jpg.flat",
+        "source": "C:\\Users\\hp 14CF\\Desktop\\tutorshare03-main\\app\\src\\main\\res\\drawable\\tutor.jpg"
+    }
+]
