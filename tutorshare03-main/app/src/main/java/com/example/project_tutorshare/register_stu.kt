@@ -1,33 +1,24 @@
 package com.example.project_tutorshare
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
-import androidx.fragment.app.replace
-import androidx.recyclerview.widget.LinearLayoutManager
-import kotlinx.android.synthetic.main.activity_login_stu.*
+import androidx.recyclerview.widget.RecyclerView
+import com.example.project_tutorshare.API
+import com.example.project_tutorshare.R
+import com.example.project_tutorshare.student_data
+import kotlinx.android.synthetic.main.activity_register_stu.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import kotlinx.android.synthetic.main.activity_register_stu.*
-import kotlinx.android.synthetic.main.activity_register_stu.edit_username
-import kotlinx.android.synthetic.main.fragment_home_std.*
 
-class MainActivity : AppCompatActivity() {
-    var studentList = arrayListOf<student_data>()
+class register_stu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
+        setContentView(R.layout.activity_register_stu)
     }
-
-
-   
-
-
     fun registerStudent(view: View) {
         val createClient = API.create()
         createClient.regisStd(
@@ -55,23 +46,8 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-    fun regisStu(view: View){
-        setContentView(R.layout.activity_register_stu)
-    }
-
-    fun regisTutor(view: View){
-        setContentView(R.layout.activity_register_tutor)
-    }
-
+    
     fun loginstu(view: View){
         setContentView(R.layout.activity_login_stu)
     }
-    fun logintutor(view: View){
-        setContentView(R.layout.activity_login_tutor)
-    }
-
-    fun back(view: View) {
-        setContentView(R.layout.activity_main)
-    }
-
 }

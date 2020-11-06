@@ -3,7 +3,10 @@ package com.example.project_tutorshare
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.http.*
+import retrofit2.http.Field
+import retrofit2.http.GET
+import retrofit2.http.POST
+import retrofit2.http.Path
 
 interface API {
     @GET("allstd")
@@ -14,7 +17,6 @@ interface API {
         @Path("username") username:String
     ): Call<List<student_data>>
 
-    @FormUrlEncoded
     @POST("std")
     fun regisStd(
         @Field("name") name :String,
@@ -29,7 +31,6 @@ interface API {
     @GET("alltutor")
     fun retrieveTutor(): Call<List<tutor_data>>
 
-    @FormUrlEncoded
     @POST("tutor")
     fun regisTutor(
             @Field("name") name :String,
