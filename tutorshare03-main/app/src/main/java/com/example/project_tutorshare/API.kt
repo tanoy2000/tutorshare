@@ -7,22 +7,23 @@ import retrofit2.http.*
 
 interface API {
     @GET("allstd")
-    fun retrieveStudent(param: Any?): Call<List<student_data>>
+    fun retrieveStudent(): Call<List<student_data>>
 
     @GET("std/{username}")
     fun retrieveStudentUser(
         @Path("username") username:String
+
     ): Call<List<student_data>>
 
     @FormUrlEncoded
     @POST("std")
     fun regisStd(
-        @Field("name") name :String,
-        @Field("username") username :String,
-        @Field("password") password :String,
-        @Field("email") email :String,
-        @Field("tel") tel :String
-    ): Call<student_data>
+            @Field("name") name: String,
+            @Field("username") username: String,
+            @Field("password") password: String,
+            @Field("email") email: String,
+            @Field("tel") tel: String
+            ): Call<student_data>
 
 
 
@@ -32,11 +33,11 @@ interface API {
     @FormUrlEncoded
     @POST("tutor")
     fun regisTutor(
-            @Field("name") name :String,
-            @Field("username") username :String,
-            @Field("password") password :String,
-            @Field("email") email :String,
-            @Field("tel") tel :String
+            @Field("name") name_tu :String,
+            @Field("username") username_tu :String,
+            @Field("password") password_tu :String,
+            @Field("email") email_tu :String,
+            @Field("tel") tel_tu :String
     ): Call<tutor_data>
 
 

@@ -4,10 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import com.example.project_tutorshare.API
-import com.example.project_tutorshare.R
-import com.example.project_tutorshare.tutor_data
-import kotlinx.android.synthetic.main.activity_register_stu.*
+
+import kotlinx.android.synthetic.main.activity_register_tutor.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -21,11 +19,11 @@ class register_tutor : AppCompatActivity() {
     fun registerTutor(view: View) {
         val createClient = API.create()
         createClient.regisTutor(
-                edit_name.text.toString(),
-                edit_username.text.toString(),
-                edit_password.text.toString(),
-                edit_email.text.toString(),
-                edit_tel.text.toString()
+                edit_name_tu.text.toString(),
+                edit_username_tu.text.toString(),
+                edit_password_tu.text.toString(),
+                edit_email_tu.text.toString(),
+                edit_tel_tu.text.toString()
         ).enqueue(object : Callback<tutor_data> {
             override fun onResponse(call: Call<tutor_data>, response: Response<tutor_data>) {
                 if (response.isSuccessful()) {

@@ -5,17 +5,17 @@ import com.google.gson.annotations.SerializedName
 
 data class tutor_data (
         @Expose
-        @SerializedName("name") val name: String,
+        @SerializedName("name") val name_tu: String,
 
         @Expose
-        @SerializedName("username") val username: String,
+        @SerializedName("username") val username_tu: String,
 
         @Expose
-        @SerializedName("password") val password: String,
+        @SerializedName("password") val password_tu: String,
 
         @Expose
-        @SerializedName("email") val email: String,
+        @SerializedName("email") val email_tu: String,
 
         @Expose
-        @SerializedName("tel") val tel: String
+        @SerializedName("tel") val tel_tu: String
 ){}

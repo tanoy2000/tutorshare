@@ -39,64 +39,69 @@
             android:layout_margin="20dp">
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="300dp"
-                android:id="@+id/edit_name"
+                android:id="@+id/hint_name"
                 android:layout_height="70dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
                 android:hint="Name">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_name_tu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="300dp"
-                android:id="@+id/edit_username"
+                android:id="@+id/hint_username"
                 android:layout_height="70dp"
                 android:layout_centerHorizontal="true"
-                android:layout_below="@+id/edit_name"
+                android:layout_below="@+id/hint_name"
                 android:layout_marginTop="10dp"
                 android:hint="Username">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_username_tu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="300dp"
-                android:id="@+id/edit_password"
+                android:id="@+id/hint_password"
                 android:layout_height="70dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:layout_below="@+id/edit_username"
+                android:layout_below="@+id/hint_username"
                 android:hint="Password">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_password_tu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="300dp"
-                android:id="@+id/edit_email"
+                android:id="@+id/hint_email"
                 android:layout_height="70dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:layout_below="@+id/edit_password"
+                android:layout_below="@+id/hint_password"
                 android:hint="Email">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_email_tu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="300dp"
-                android:id="@+id/edit_tel"
+                android:id="@+id/hint_tel"
                 android:layout_height="70dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:layout_below="@id/edit_email"
+                android:layout_below="@id/hint_email"
                 android:hint="Tel">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_tel_tu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
@@ -105,14 +110,12 @@
                 android:id="@+id/btnregister"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/edit_tel"
-                android:layout_marginTop="20dp"
+                android:layout_below="@+id/hint_tel"
+                android:layout_marginTop="10dp"
                 android:text="Register"
                 android:backgroundTint="#0f697c"
                 android:textSize="25sp"
-                android:onClick="registerTutor"
-                />
-
+                android:onClick="registerTutor"/>
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

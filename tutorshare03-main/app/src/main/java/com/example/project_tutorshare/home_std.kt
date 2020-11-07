@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.replace
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_student_main.view.*
-import kotlinx.android.synthetic.main.fragment_home_std.*
+
 
 class home_std : Fragment() {
     var studentList = arrayListOf<student_data>()
@@ -25,7 +25,7 @@ class home_std : Fragment() {
         val transaction = childFragmentManager.beginTransaction()
 
         // Inflate the layout for this fragment
-       val view = inflater.inflate(R.layout.fragment_home_std, container, false)
+       val view = inflater.inflate(R.layout.std_home, container, false)
 
         return view
     }
