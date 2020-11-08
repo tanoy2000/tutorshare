@@ -4,18 +4,22 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 data class tutor_data (
-        @Expose
-        @SerializedName("name") val name_tu: String,
 
         @Expose
-        @SerializedName("username") val username_tu: String,
+        @SerializedName("id_tu") val id_tu: Int,
 
         @Expose
-        @SerializedName("password") val password_tu: String,
+        @SerializedName("name_tu") val name_tu: String,
 
         @Expose
-        @SerializedName("email") val email_tu: String,
+        @SerializedName("username_tu") val username_tu: String,
 
         @Expose
-        @SerializedName("tel") val tel_tu: String
+        @SerializedName("password_tu") val password_tu: String,
+
+        @Expose
+        @SerializedName("email_tu") val email_tu: String,
+
+        @Expose
+        @SerializedName("tel_tu") val tel_tu: String
 ){}

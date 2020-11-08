@@ -9,9 +9,9 @@ interface API {
     @GET("allstd")
     fun retrieveStudent(): Call<List<student_data>>
 
-    @GET("std/{username}")
+    @GET("std/{id}")
     fun retrieveStudentUser(
-        @Path("username") username:String
+        @Path("id") id_std:Int
 
     ): Call<List<student_data>>
 
@@ -30,15 +30,41 @@ interface API {
     @GET("alltutor")
     fun retrieveTutor(): Call<List<tutor_data>>
 
+    @GET("tutor/{id_tu}")
+    fun retrievetutorUser(
+            @Path("id_tu") id_tu:Int
+
+    ): Call<List<tutor_data>>
+
     @FormUrlEncoded
     @POST("tutor")
     fun regisTutor(
-            @Field("name") name_tu :String,
-            @Field("username") username_tu :String,
-            @Field("password") password_tu :String,
-            @Field("email") email_tu :String,
-            @Field("tel") tel_tu :String
+            @Field("name_tu") name_tu :String,
+            @Field("username_tu") username_tu :String,
+            @Field("password_tu") password_tu :String,
+            @Field("email_tu") email_tu :String,
+            @Field("tel_tu") tel_tu :String
     ): Call<tutor_data>
+
+
+    @GET("allcourse")
+    fun retrieveCourse(): Call<List<course_data>>
+
+    @GET("course/{id_course}")
+    fun retrieveSelectCourse(
+            @Path("id_course") id_course:Int
+
+    ): Call<List<course_data>>
+
+    @FormUrlEncoded
+    @POST("course")
+    fun addCourse(
+            @Field("name_course") name_course :String,
+            @Field("name_tutor") name_tutor :String,
+            @Field("tel_tutor") tel_tutor :String,
+            @Field("email_tutor") email_tutor :String,
+            @Field("price_tutor") price_course :String
+    ): Call<course_data>
 
 
 

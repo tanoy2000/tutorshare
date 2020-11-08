@@ -9,7 +9,8 @@
         android:id="@+id/navigation_home"
         android:name="com.example.project_tutorshare.home_std"
         android:label="@string/title_home"
-        tools:layout="@layout/std_home" >
+        tools:layout="@layout/activity_stu_home"
+        >
         <action
             android:id="@+id/action_navigation_home_to_navigation_search"
             app:destination="@id/navigation_search" />
@@ -43,6 +44,7 @@
         android:label="@string/title_notifications"
         tools:layout="@layout/std_profile" >
         <action
+
             android:id="@+id/action_navigation_profile_to_navigation_home"
             app:destination="@id/navigation_home" />
         <action
